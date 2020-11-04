@@ -1,4 +1,4 @@
-(module Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5C4E6004)
+(module Hybrid_PCB_100H_Dual_hole_hotswap_diode (layer F.Cu) (tedit 5F16FBA6)
   (fp_text reference CHERRY (at -2.54 7.62) (layer F.SilkS) hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
