@@ -1,4 +1,4 @@
-(module Hybrid_PCB_100H_hotswap_diode_RGB_rot (layer F.Cu) (tedit 5F6D77A4)
+(module Hybrid_PCB_100H_hotswap_diode_RGB_rot (layer F.Cu) (tedit 60CFDE38)
   (attr smd)
   (fp_text reference CHERRY (at 5.08 -7.239 180) (layer F.SilkS) hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
@@ -6,6 +6,13 @@
   (fp_text value MX (at -0.127 -8.763 180) (layer F.SilkS) hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
+  (fp_line (start 9.5 5.5) (end 7.5 5.5) (layer Eco2.User) (width 0.15))
+  (fp_line (start 9.5 0.7) (end 9.5 5.5) (layer Eco2.User) (width 0.15))
+  (fp_line (start 7.5 0.7) (end 9.5 0.7) (layer Eco2.User) (width 0.15))
+  (fp_line (start -7.5 7.5) (end -7.5 -7.5) (layer Eco2.User) (width 0.15))
+  (fp_line (start 7.5 7.5) (end -7.5 7.5) (layer Eco2.User) (width 0.15))
+  (fp_line (start 7.5 -7.5) (end 7.5 7.5) (layer Eco2.User) (width 0.15))
+  (fp_line (start -7.5 -7.5) (end 7.5 -7.5) (layer Eco2.User) (width 0.15))
   (fp_line (start 6.35 6.35) (end -6.35 6.35) (layer Cmts.User) (width 0.1524))
   (fp_line (start -6.35 6.35) (end -6.35 -6.35) (layer Cmts.User) (width 0.1524))
   (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer Cmts.User) (width 0.1524))
