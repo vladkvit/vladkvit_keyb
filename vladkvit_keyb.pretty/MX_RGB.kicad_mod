@@ -1,0 +1,212 @@
+(footprint "MX_RGB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CHERRY"
+		(at 5.08 -7.239 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1cfbb2e7-c181-4c81-83dc-c87fb6906c29")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MX"
+		(at -0.127 -8.763 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afea1f16-b6df-4baa-a213-a86cc29a0bc1")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae17a6fd-040d-4095-95c8-0a5492237579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ad1dfba-8010-45b6-98d8-062f56797d83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99a77f0b-3218-4959-a767-6eeec3eef7a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.778 -4.572) (xy -3.81 -4.572) (xy -3.81 -3.429) (xy -1.778 -3.429)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "b280455b-de7c-4fc6-8d65-8e114ef47627")
+	)
+	(fp_line
+		(start -1.8 -3.4)
+		(end -1.8 -6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "82efcd70-6084-4173-baae-d98887208a19")
+	)
+	(fp_line
+		(start 1.6 -6.4)
+		(end -1.6 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e11bcf1-8e0b-49a9-907c-151cad5496fd")
+	)
+	(fp_line
+		(start 1.6 -3.2)
+		(end -1.6 -3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6a530767-ae12-41ae-be53-c658b56cd059")
+	)
+	(fp_line
+		(start 1.8 -3.4)
+		(end 1.8 -6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8c8f9a22-01ae-4765-9554-c76a0cf5774c")
+	)
+	(fp_arc
+		(start -1.8 -6.2)
+		(mid -1.741421 -6.341421)
+		(end -1.6 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33abf5fd-97d2-4ebf-9c00-72a7f089108c")
+	)
+	(fp_arc
+		(start -1.6 -3.2)
+		(mid -1.741421 -3.258579)
+		(end -1.8 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fa64e714-8c40-4588-b2ef-3ed8e6944659")
+	)
+	(fp_arc
+		(start 1.6 -6.4)
+		(mid 1.741421 -6.341421)
+		(end 1.8 -6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ffbd1bb-d03c-4768-a6f8-81730332c71a")
+	)
+	(fp_arc
+		(start 1.8 -3.4)
+		(mid 1.741421 -3.258579)
+		(end 1.6 -3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b19036d9-8b18-4987-9aab-c7953ffe972e")
+	)
+	(pad "1" smd rect
+		(at -2.667 -4 180)
+		(size 1.8 0.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "b92770f3-6e0c-4938-bef9-30b0b89c1623")
+	)
+	(pad "2" smd rect
+		(at 2.667 -4 180)
+		(size 1.8 0.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "e87e8236-ab17-4019-bb94-9d628e7daea7")
+	)
+	(pad "3" smd rect
+		(at 2.667 -5.6 180)
+		(size 1.8 0.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "b3bab812-03ea-4a7e-9366-13ee57e67731")
+	)
+	(pad "4" smd rect
+		(at -2.667 -5.6 180)
+		(size 1.8 0.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "449b195f-791e-4c8d-a1f0-2608d9ef66f2")
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/mx-switch.wrl"
+		(offset
+			(xyz 7.467599888 7.467599888 5.943599911)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz 270 0 180)
+		)
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/SA-R3-1u.wrl"
+		(offset
+			(xyz 0 0 11.93799982)
+		)
+		(scale
+			(xyz 0.394 0.394 0.394)
+		)
+		(rotate
+			(xyz 270 0 0)
+		)
+	)
+)

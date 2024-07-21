@@ -1,0 +1,178 @@
+(footprint "MX_hotswap"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CHERRY"
+		(at 5.08 -7.239 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1cfbb2e7-c181-4c81-83dc-c87fb6906c29")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MX"
+		(at -0.127 -8.763 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afea1f16-b6df-4baa-a213-a86cc29a0bc1")
+		(effects
+			(font
+				(size 1.27 1.524)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae17a6fd-040d-4095-95c8-0a5492237579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ad1dfba-8010-45b6-98d8-062f56797d83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99a77f0b-3218-4959-a767-6eeec3eef7a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.5 3.175)
+		(end -7.5 6.985)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6cf50fce-5118-4dbb-b027-165dcff236cd")
+	)
+	(fp_line
+		(start -6.985 3.175)
+		(end -7.5 3.175)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ade8a08a-2a1b-4acc-8c8c-2a1b72036d97")
+	)
+	(fp_line
+		(start -6.985 6.985)
+		(end -7.5 6.985)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "829348d6-7835-484b-9f64-a7cbc6ab9d2b")
+	)
+	(fp_line
+		(start 6.985 0.7)
+		(end 9.5 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "03df42b0-f50d-41fd-9a55-a3671c04f07c")
+	)
+	(fp_line
+		(start 9.5 0.7)
+		(end 9.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "d2d097b5-2c0f-416d-96cd-3377c07e6a19")
+	)
+	(fp_line
+		(start 9.5 5.5)
+		(end 6.985 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "2e8fd35e-37e0-464d-86d3-a2d54519e7c6")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 5.08 180)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "271a0b24-59c5-4718-9422-76952a312b39")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 2.54 180)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cb855d29-c54a-4df5-8d2a-403fea9575d0")
+	)
+	(pad "1" smd rect
+		(at -5.64 5.08 180)
+		(size 2.8 1.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "0b914cdc-bb52-43ed-9d5e-b7a7f4774088")
+	)
+	(pad "2" smd rect
+		(at 6.91 2.54 180)
+		(size 2.8 1.7)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "2eb55636-d1fd-4814-9281-62ed781d5602")
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/mx-switch.wrl"
+		(offset
+			(xyz 7.467599888 7.467599888 5.943599911)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz 270 0 180)
+		)
+	)
+	(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/SA-R3-1u.wrl"
+		(offset
+			(xyz 0 0 11.93799982)
+		)
+		(scale
+			(xyz 0.394 0.394 0.394)
+		)
+		(rotate
+			(xyz 270 0 0)
+		)
+	)
+)
